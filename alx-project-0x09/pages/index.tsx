@@ -13,7 +13,6 @@ const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const handleGenerateImage = async () => {
-    console.log(process.env.NEXT_PUBLIC_GPT_API_KEY)
     console.log("Generating Images")
   };
 
